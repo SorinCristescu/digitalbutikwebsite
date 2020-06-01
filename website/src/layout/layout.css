@@ -50,7 +50,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #141414;
+  background-color: #F1EDFF;
   /* cursor: none; */
   overflow-x: hidden;
 }
@@ -224,8 +224,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: white;
-  background-color: #141414;
+  color: #0A0218;
+  background-color: #F1EDFF;
   font-family: 'Manrope Regular', sans-serif;
   font-weight: 400;
   word-wrap: break-word;

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 //Components
-import Logo from '../../images/logo-white.svg';
+import Logo from '../../images/logo-black.svg';
 import Headroom from 'react-headroom'
 
 // Styles
@@ -15,6 +15,16 @@ const Header = ({ siteTitle }) => {
     <Link to="/">
       <LogoImage src={Logo} alt="logo"/>
     </Link>
+    <div className="nav-container">
+      <Link className="link" to="/about">About</Link> <br />
+      <Link className="link" to="/services">Services</Link> <br />
+      <Link className="link" to="/process">Process</Link> <br />
+      <Link className="link" to="/creations">Creations</Link> <br />
+      <Link className="link" to="/simulator">Simulator</Link> <br />
+      <Link className="link" to="/dashboard">Log In</Link> <br />
+      <Link className="link" to="/contact">Contact</Link> <br />
+
+    </div>
   
   </HeaderContainer>
   )

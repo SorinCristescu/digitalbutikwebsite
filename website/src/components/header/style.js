@@ -6,11 +6,25 @@ export const HeaderContainer = styled.header`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
-    left: 0;
-    max-width: 100%;
+    max-width: 960px;
+    z-index: 1;
+    background-color: #F1EDFF;
+
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            color: black;
+            margin-left: 20px;
+        }
+    }
 
 `;
 
